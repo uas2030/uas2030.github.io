@@ -1,7 +1,7 @@
 # Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
-images = ["cover.png"]
+title = "UAS2030"
+description = "Multidisciplinary initiative team of engineering students from KFUPM participating in the Worldwide UAV Competition"
+images = ["cover.jpeg"]
 
 # mainSections
 mainSections = ["docs"]
