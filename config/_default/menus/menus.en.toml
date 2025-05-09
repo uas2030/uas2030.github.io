@@ -37,13 +37,29 @@
 [[main]]
   name = "Blog"
   url = "/blog/"
+  weight = 40
+
+[[main]]
+  name = "Gallery"
+  url = "/gallery/"
+  weight = 20
+
+[[main]]
+  name = "Contact Us"
+  url = "/contact_us/"
   weight = 30
 
 [[social]]
   name = "X"
   pre = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>'
-  url = "https://www.linkedin.com/company/uas2030/"
+  url = "https://www.x.com/company/uas2030/"
   weight = 10
+
+[[social]]
+  name = "LinkedIn"
+  pre = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><rect x="4" y="4" width="16" height="16" rx="2"></rect><line x1="8" y1="11" x2="8" y2="16"></line><line x1="8" y1="8" x2="8" y2="8.01"></line><line x1="12" y1="16" x2="12" y2="11"></line><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>'
+  url = "https://www.linkedin.com/company/uas2030/"
+  weight = 20
 #
 # [[social]]
 #   name = "Discord"
