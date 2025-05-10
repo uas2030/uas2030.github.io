@@ -1,0 +1,56 @@
+---
+title: "Object Detection, Localisation, and Classification"
+description: ""
+summary: ""
+date: 2023-09-07T16:13:18+02:00
+lastmod: 2023-09-07T16:13:18+02:00
+draft: false
+weight: 910
+toc: true
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+
+The Object Detection, Localisation, and Classification (ODLC) subsystem is built around neural network pipeline optimised for real-time performance and accuracy.
+As illustrated in Figure 2, the pipeline begins with a YOLOv11 model tasked with initial target detection and classification.
+
+This design ensures robust classification performance while maintaining real-time throughput.
+All detected targets are compiled into a unified output that includes target location, shape, shape colour, and alphanumeric character with its colour.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{ODLC Pipeline.png}
+    \caption{ODLC Pipeline}
+    \label{fig:enter-label}
+\end{figure}
+
+To accelerate model training, the team adopted an automated data synthesis approach using Blender, where target objects were rendered on top of UAV-captured aerial backgrounds.
+
+Similar to last year's approach, the team adopted an automated data synthesis approach using Project AirSim~\cite{SUAS2025Team2025} to generate photorealistic training images.
+A 3D model from each object class is overlaid randomly over the scene, without overlap.
+Each rendered image was automatically annotated in compliance with the dataset requirements for target size, pose, and color variation.
+This process significantly reduced human effort and improved dataset diversity and quality.
+
+Around 12,000 synthetic and real composite images were generated and used for training and validation.
+The dataset underwent extensive augmentation—incorporating noise, transformations, and lighting changes—to simulate real-world variability.
+As a trade of for performance, we reduce the input image size to the model which hampers the model's ability to detect smaller objects as shown in \ref{fig:ai-confusion}.
+Consequently, performance testing showed that the primary model operates at 32 FPS on the onboard Jetson Orin NX and achieves a high mean Average Precision (mAP) across all classification categories except bats.
+\ref{fig:valid-results} summarises the data generation and training process.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Confusion matrix.png}
+    \caption{Confusion Matrix}
+    \label{fig:ai-confusion}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Validation Results.png}
+    \caption{Validation Results}
+    \label{fig:ai-valid-results}
+\end{figure}
+
+Through extensive field and software testing, the system proved its reliability, consistently achieving accurate ODLC predictions under a variety of flight and weather conditions.
