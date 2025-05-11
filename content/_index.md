@@ -61,7 +61,7 @@ seo:
 	 >}}
 	Supervised by the Chairman of the Aerospace Engineering department
 </div>
-
+</div>
 
 ## Our Sponser
 <div class="text-center justify-content-center">
