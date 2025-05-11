@@ -53,6 +53,16 @@ seo:
 	Led by Yasan Alrasheed
 </div>
 <div class="col-lg-5">
+<div style="width: 10em; margin: 0 auto;">
+	{{< figure  src="images/dr-hatem.jpeg"
+	width= "64"
+	title="Dr. Hatem Keshk"
+	caption="Dr. Hatem Keshk"
+	 >}}
+	 </div>
+	 Consulted by Dr. Hatem Keshk
+</div>
+<div class="col-lg-5">
 	{{< figure  src="images/dr-ayman.png"
 	width= "128"
 	alt="A photograph of a man in Thoub"
