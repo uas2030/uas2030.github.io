@@ -40,17 +40,21 @@ As a trade of for performance, we reduce the input image size to the model which
 Consequently, performance testing showed that the primary model operates at 32 FPS on the onboard Jetson Orin NX and achieves a high mean Average Precision (mAP) across all classification categories except bats.
 \ref{fig:valid-results} summarises the data generation and training process.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{Confusion matrix.png}
-    \caption{Confusion Matrix}
-    \label{fig:ai-confusion}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{Validation Results.png}
-    \caption{Validation Results}
-    \label{fig:ai-valid-results}
-\end{figure}
+<div class="row text-center justify-content-center">
+	{{< figure  
+	src="odlc-confusion.jpeg"
+	width="128"
+	alt="A confusion matrix for the YOLOv11 model"
+	title="A confusion matrix for the YOLOv11 modely"
+	caption="A confusion matrix for the YOLOv11 model"
+	 >}}
+	{{< figure  
+	src="odlc-metrics.jpeg"
+	width="128"
+	alt="A confusion matrix for the YOLOv11 model"
+	title="YOLOv11 model metrics"
+	caption="YOLOv11 model metrics"
+	 >}}
+</div>
 
 Through extensive field and software testing, the system proved its reliability, consistently achieving accurate ODLC predictions under a variety of flight and weather conditions.
