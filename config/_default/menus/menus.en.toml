@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/suas2025/report-introduction"
+  url = "/docs/suas2025/strategy"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
