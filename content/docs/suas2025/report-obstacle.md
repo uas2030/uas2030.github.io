@@ -31,7 +31,7 @@ sidestep incoming obstacles horizontally and pivot around them,
 minimising the risk of collision. we selected the horizontal variant
 over the vertical Bendy Ruler to avoid the complexities associated with
 predicting the pitch and roll attitudes of fast-moving aerial objects. A
-demonstration of this maneuver is shown in [@fig]:obstacle-avoidance.
+demonstration of this maneuver is shown in the following figure.
 
 <figure>
 

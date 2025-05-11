@@ -18,7 +18,7 @@ seo:
 The air drop system is designed to ensure consistent, safe, and accurate
 delivery of payloads using a lightweight, efficient mechanism during autonomous missions. This year’s
 payload consists of four GP908 strobe beacons, each housed in a
-custom-designed 3D printed container (@fig:Drop). These containers are compact,  impact-resistant,
+custom-designed 3D printed container (See next figure). These containers are compact,  impact-resistant,
 and aerodynamically stable. the containers are secured to a drop mechanism weighing
 less than 0.7 lb.
 
@@ -38,7 +38,7 @@ braking spool, which slows the descent safely until touchdown.
 
 To fine-tune drop timing and optimize descent speed, a relationship
 between drop height and total fall time was modeled analytically and
-experimentally. The chart in @fig:total-fall-time-vs-free-fall-distance outlines the established
+experimentally. The chart in following figure outlines the established
 correlation, enabling precise configuration of release height versus
 desired impact velocity.
 
@@ -64,7 +64,7 @@ deployment without mechanical failure or entanglement.
 
 Statistical analysis of drop accuracy revealed a 90th percentile
 distance from the target of just 2.26 feet, demonstrating the system’s
-consistent precision. Th previous two figures compare the cumulative distribution of
+consistent precision. The previous two figures compare the cumulative distribution of
 landing errors across all trials.
 
 <figure>
@@ -142,11 +142,11 @@ tubes</p></td>
 </div>
 </figure>
 
-Finite Element Analysis \(FEA) was conducted using ANSYS to ensure
+Finite Element Analysis (FEA) was conducted using ANSYS to ensure
 structural durability and minimise stress concentrations under dynamic
 flight loading. **Topology optimisation** further reduced the
 frame’s weight without compromising mechanical performance. Results of
-this simulation are illustrated in @fig:fem.
+this simulation are illustrated in the figure in [previous section](#aircraft-design-and-testing).
 
 
 
@@ -157,10 +157,10 @@ thrust-to-efficiency performance. Each motor can generate up to
 **12 lb of thrust**;, enabling robust lift capacity and flight
 stability. This choice was validated by a comparative analysis of
 theoretical flight times across multiple motors
-\(@fig:motors).
+(See upcoming table).
 
-Paired with **22-inch carbon fiber propellers** \(6.6-inch pitch)
-and powered by **12 6S Li-ion battery packs** \(54 Ah total
+Paired with **22-inch carbon fiber propellers** (6.6-inch pitch)
+and powered by **12 6S Li-ion battery packs** (54 Ah total
 capacity), the system delivers high endurance and consistent flight
 performance under varying payloads.
 
@@ -170,7 +170,7 @@ accumulating more than **8 hours** of airtime under diverse
 conditions. The UAV demonstrated consistent **top speeds up to 82
 ft/s**;, a **hovering endurance of 45 minutes**;, and a
 **payload capacity of 8 lb**;, as validated across multiple test
-configurations \(@fig:flight-perf-res).
+configurations (See bar chart).
 
 <figure>
 <div data-align="center">
