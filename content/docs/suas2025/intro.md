@@ -1,6 +1,6 @@
 ---
 title: "Report Introduction"
-description: "Reference pages are ideal for outlining how things work in terse and clear terms."
+description: "This document outlines the design, development, and strategic approach of UAS2030 for the SUAS 2025 competition"
 summary: ""
 date: 2023-09-07T16:13:18+02:00
 lastmod: 2023-09-07T16:13:18+02:00
