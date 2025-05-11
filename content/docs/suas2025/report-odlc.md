@@ -16,16 +16,10 @@ seo:
 
 
 The Object Detection, Localisation, and Classification (ODLC) subsystem is built around neural network pipeline optimised for real-time performance and accuracy.
-As illustrated in Figure 2, the pipeline begins with a YOLOv11 model tasked with initial target detection and classification.
+The pipeline begins with a YOLOv11 model tasked with initial target detection and classification.
 
 This design ensures robust classification performance while maintaining real-time throughput.
 All detected targets are compiled into a unified output that includes target location, shape, shape colour, and alphanumeric character with its colour.
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{ODLC Pipeline.png}
-    \caption{ODLC Pipeline}
-    \label{fig:enter-label}
-\end{figure}
 
 To accelerate model training, the team adopted an automated data synthesis approach using Blender, where target objects were rendered on top of UAV-captured aerial backgrounds.
 
