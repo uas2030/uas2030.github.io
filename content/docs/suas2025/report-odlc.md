@@ -23,7 +23,7 @@ All detected targets are compiled into a unified output that includes target loc
 
 To accelerate model training, the team adopted an automated data synthesis approach using Blender, where target objects were rendered on top of UAV-captured aerial backgrounds.
 
-Similar to last year's approach, the team adopted an automated data synthesis approach using Project AirSim~\cite{SUAS2025Team2025} to generate photorealistic training images.
+Similar to last year's approach, the team adopted an automated data synthesis approach using [Project AirSim](https://github.com/microsoft/AirSim) to generate photorealistic training images.
 A 3D model from each object class is overlaid randomly over the scene, without overlap.
 Each rendered image was automatically annotated in compliance with the dataset requirements for target size, pose, and color variation.
 This process significantly reduced human effort and improved dataset diversity and quality.
