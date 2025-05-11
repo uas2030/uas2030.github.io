@@ -30,9 +30,9 @@ This process significantly reduced human effort and improved dataset diversity a
 
 Around 12,000 synthetic and real composite images were generated and used for training and validation.
 The dataset underwent extensive augmentation—incorporating noise, transformations, and lighting changes—to simulate real-world variability.
-As a trade of for performance, we reduce the input image size to the model which hampers the model's ability to detect smaller objects as shown in \ref{fig:ai-confusion}.
+As a trade of for performance, we reduce the input image size to the model which hampers the model's ability to detect smaller objects as shown in the following figure.
 Consequently, performance testing showed that the primary model operates at 32 FPS on the onboard Jetson Orin NX and achieves a high mean Average Precision (mAP) across all classification categories except bats.
-\ref{fig:valid-results} summarises the data generation and training process.
+The final figure summarises the data generation and training process.
 
 <div class="row text-center justify-content-center">
 	{{< figure  

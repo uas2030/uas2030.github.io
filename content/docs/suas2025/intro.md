@@ -40,7 +40,7 @@ Our UAS is engineered to balance system complexity and reliability,
 focusing on the following components:
 
 ### Airframe and Propulsion
-- **Weight:** The fully loaded UAS weighs less than 45 lbs, complying with SUAS 2025 regulations \cite{suas2025handbook}.
+- **Weight:** The fully loaded UAS weighs less than 45 lbs, complying with [SUAS 2025 regulations](https://robonation.gitbook.io/suas-resources).
 - **Endurance:** Capable of flight durations exceeding 30 minutes, accommodating the mission timeline.
 - **Cruise Speed:** Maintains an average speed over 66 ft/s to efficiently complete the 15-mile course within 20 minutes.
 
