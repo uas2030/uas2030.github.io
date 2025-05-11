@@ -261,7 +261,10 @@
       "doks-docs-nav",
       "doks-language-current",
       "doks-languages",
+      "for-suas-2025",
       "further-reading",
+      "h-rh-i-0",
+      "meet-the-team",
       "mission-requirements-and-acceptance-criteria",
       "object-detection-and-localization-odlc",
       "obstacle-detection-and-avoidance",
@@ -269,6 +272,7 @@
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
+      "our-sponser",
       "payload-delivery-system",
       "query",
       "requirements",
@@ -280,6 +284,7 @@
       "searchToggleMobile",
       "social-media",
       "socialMenu",
+      "the-drone",
       "toc"
     ]
   }
