@@ -22,7 +22,7 @@ seo:
 </div>
 
 ## Meet the Team!
-<div class="row  justify-content-center">
+<div class="row justify-content-center" style="row-gap: 1em;">
 <div class="col-lg-5">
 	{{< figure  
 	src="images/team-ai.jpg"
@@ -52,6 +52,16 @@ seo:
 	 >}}
 	Led by Yasan Alrasheed
 </div>
+<div class="col-lg-5">
+	{{< figure  src="images/dr-ayman.png"
+	width= "128"
+	alt="A photograph of a man in Thoub"
+	title="Dr. Ayman M. Abdallah"
+	caption="Dr. Ayman M. Abdallah"
+	 >}}
+	Supervised by the Chairman of the Aerospace Engineering department
+</div>
+
 
 ## Our Sponser
 <div class="text-center justify-content-center">
