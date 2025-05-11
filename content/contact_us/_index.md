@@ -20,7 +20,11 @@ For general inquiries, email us at
 
 ### Social Media
 Follow us on social media for updates and news:
+<div style="text-align: left; margin: 0 4em;">
+
 - [LinkedIn](https://www.linkedin.com/company/uas2030/)
 - [Twitter](https://twitter.com/uas2030)
+
+</div>
 
 We look forward to connecting with you!
