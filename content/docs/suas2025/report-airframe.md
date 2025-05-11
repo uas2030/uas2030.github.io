@@ -89,17 +89,13 @@ assurance protocol helps prevent hardware failure during flight and
 ensures the UAV remains stable throughout the drop procedure as 
 
 ## Aircraft Design and Testing
-<aircraft-design-and-testing>
 Our UAV platform is based on a modified industrial-grade hexacopter,
 customized to meet the SUAS competition’s demanding flight performance
 requirements.
-The vehicle features a **foldable frame**, designed
-to support a **13 lb payload**;
-a #strong[range of up to 14 miles];
-and a **maximum hovering endurance of 70 minutes** under no-load conditions.
+The vehicle features a __foldable frame__ designed to support a __13 lb payload__, a __range of up to 14 miles__, and a __maximum hovering endurance of 70 minutes__ under no-load conditions.
 
 The frame was fabricated using a combination of **carbon fiber
-composites** and #strong[aluminum] to balance strength, rigidity, and
+composites** and **aluminum** to balance strength, rigidity, and
 lightweight construction. This material choice ensures high
 stiffness-to-weight ratio and robustness during landing and
 transportation.
