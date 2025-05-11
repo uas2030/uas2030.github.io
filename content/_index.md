@@ -12,6 +12,14 @@ seo:
   noindex: false # false (default) or true
 ---
 
+## First Place Winners of SUAS 2024
+<div class="row text-center justify-content-center" style="margin: 0 0 2em 0;">
+
+![Picture of the UAS2030 team holding up the Saudi Arabian flag, team flag, and a 1st place winner check](images/suas2024-win.jpg)
+
+</div>
+
+
 # For SUAS 2025
 
 ## The Drone
