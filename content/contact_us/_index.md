@@ -14,9 +14,9 @@ seo:
 
 We’d love to hear from you! Whether you have questions, need support, or want to collaborate, feel free to reach out to us through any of the following methods:
 
-<!-- ### Email
-For general inquiries, email us at:
-[info@uas2030.com](mailto:info@uas2030.com) -->
+### Email
+For general inquiries, email us at
+[uas2030@gmail.com](mailto:uas2030@gmail.com)
 
 ### Social Media
 Follow us on social media for updates and news:
