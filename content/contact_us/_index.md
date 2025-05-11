@@ -16,7 +16,7 @@ We’d love to hear from you! Whether you have questions, need support, or want 
 
 ### Email
 For general inquiries, email us at
-[uas2030@gmail.com](mailto:uas2030@gmail.com)
+[ae.uas2030@gmail.com](mailto:ae.uas2030@gmail.com)
 
 ### Social Media
 Follow us on social media for updates and news:
