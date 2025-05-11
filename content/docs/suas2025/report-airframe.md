@@ -75,12 +75,13 @@ landing errors across all trials.
 </figure>
 
 
-#figure([#box(image(width : 70%,"images/(feet) (2).png"));],
-  caption: [
-    Measured deviations in ft. of object drop points from target coordinates.
-  ]
-)
-<fig:airframepayloads175>
+
+<figure>
+
+![](airdrop-feet.PNG)
+
+<figcaption>Measured deviations in ft. of object drop points from target coordinates.</figcaption>
+</figure>
 
 All air drop mechanisms are tested independently before full integration
 to ensure compliance with mission safety standards. This quality
