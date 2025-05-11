@@ -69,9 +69,4 @@ focusing on the following components:
 - **Power Consumption:** The ODLC subsystem consumes less than 20 W.
 - **Subsystem Weight:** Weighs under 10 lbs, ensuring minimal impact on flight performance.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{Pic1}
-    \caption{Requirements and Acceptance Criteria}
-    \label{Requirements and Acceptance Criteria}
-\end{figure}
+![Acceptance criteria](images/suas2025-acceptance.PNG)
